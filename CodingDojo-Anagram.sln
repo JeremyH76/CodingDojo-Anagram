@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo-Anagram", "CodingDojo-Anagram\CodingDojo-Anagram.csproj", "{A81B0764-F4EA-4E17-BE58-7FBADE89189E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{5A13C2AE-F212-4405-A29E-DD1F68C43A7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{FF22C1FC-E254-4A7C-B612-D602AFCF22B0}"
+	ProjectSection(SolutionItems) = preProject
+		text.txt = text.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A81B0764-F4EA-4E17-BE58-7FBADE89189E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81B0764-F4EA-4E17-BE58-7FBADE89189E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81B0764-F4EA-4E17-BE58-7FBADE89189E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81B0764-F4EA-4E17-BE58-7FBADE89189E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A13C2AE-F212-4405-A29E-DD1F68C43A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A13C2AE-F212-4405-A29E-DD1F68C43A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A13C2AE-F212-4405-A29E-DD1F68C43A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A13C2AE-F212-4405-A29E-DD1F68C43A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B25B597-A9F2-430B-9C8A-DD928A59BF3B}
+	EndGlobalSection
+EndGlobal

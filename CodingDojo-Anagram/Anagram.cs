@@ -11,7 +11,7 @@ namespace CodingDojo_Anagram
         public static List<Tuple<string,string>> Find(string v)
         {
             List<Tuple<string, string>> ret = new List<Tuple<string, string>>();
-            List<string> words = v.Split(' ').ToList();
+            List<string> words = v.Split(' ').Where(x => x != "").ToList();
             List<string> list = new List<string>();
             foreach(string word in words)
             {

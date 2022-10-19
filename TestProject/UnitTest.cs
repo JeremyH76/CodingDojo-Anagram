@@ -27,5 +27,11 @@ namespace TestProject
         {
             Assert.Equal(new List<Tuple<string, string>>() { new Tuple<string,string>("brag", "grab") }, Anagram.Find("element elite brag email empty energy grab"));
         }
+
+        [Fact]
+        public void TestAnagramWithTooMuchSpaces()
+        {
+            Assert.Equal(new List<Tuple<string, string>>() { new Tuple<string, string>("brag", "grab") }, Anagram.Find("element    elite brag email   empty energy       grab"));
+        }
     }
 }

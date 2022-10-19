@@ -13,7 +13,13 @@ namespace TestProject
         [Fact]
         public void TestAnagram()
         {
-            Assert.Equal(new List<Tuple<string,string>>() { }, Anagram.Find("carte oui acter"));
+            Assert.Equal(new List<Tuple<string, string>>() { }, Anagram.Find("carte oui actere"));
+        }
+
+        [Fact]
+        public void TestAnagramWorks()
+        {
+            Assert.Equal(new List<Tuple<string,string>>() { new Tuple<string, string>("carte", "acter") }, Anagram.Find("carte oui acter"));
         }
 
         [Fact]

@@ -21,4 +21,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CodingDojo-Anagram\CodingDojo-Anagram.csproj" />
+  </ItemGroup>
+
 </Project>
